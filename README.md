@@ -10,12 +10,12 @@ N/A
 
 ## Usage
 
-Open the webpage and select a time block to enter an event.
+Open the webpage and select a time block to enter an event. Click the save button to save the event to your local storage. To edit an event, click back into the timeblock and type in your new event.
 
 Website URL: (https://bechedley.github.io/work-day-scheduler/)
 
 
-![Screenshot of webpage with splitscreen showing the Chrome dev tools window](#)
+![Screenshot of webpage with splitscreen showing the Chrome dev tools window](\assets\images\scheduler-screenshot.jpg)
     
 
 ## Credits
@@ -24,7 +24,7 @@ Starter code provided by Monash University
 
 The following resources were referenced to ensure best practice and adherence to appropriate conventions:
 
-
+localStorage in JavaScript: A complete guide by logRocket (https://blog.logrocket.com/localstorage-javascript-complete-guide/)
 
 ## License
 
