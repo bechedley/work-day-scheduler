@@ -10,6 +10,7 @@ var time4pm = $("#event-4pm");
 var time5pm = $("#event-5pm");
 var eventInput = $(".event");
 var saveBtn = $(".saveBtn");
+var clearBtn = $("#clearBtn");
 
 var events = [];
 
@@ -20,7 +21,7 @@ currentDay.text(date);
 // Change class of time-block by time
 function colourCode() {
     var currentTime = moment().format("H");
-    
+
     if (currentTime < 9) {
         time9am.addClass("future");
         time10am.addClass("future");
@@ -155,7 +156,7 @@ function colourCode() {
 
 // Write function to save input text to local storage
 
-saveBtn.on("click", function(event) {
+saveBtn.on("click", function (event) {
     event.preventDefault();
 
     var eventItem9 = $('input[name="eventItem9"]').val().trim()
