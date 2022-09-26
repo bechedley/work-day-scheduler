@@ -15,7 +15,7 @@ Open the webpage and select a time block to enter an event. Click the save butto
 Website URL: (https://bechedley.github.io/work-day-scheduler/)
 
 
-![Screenshot of webpage with splitscreen showing the Chrome dev tools window](assets/images/scheduler-screenshot.jpeg)
+![Screenshot of webpage with splitscreen showing the Chrome dev tools window](/week-5/work-day-scheduler/assets/images/scheduler-screenshot.jpg)
     
 
 ## Credits
